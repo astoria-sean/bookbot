@@ -49,4 +49,5 @@ def create_report(path,wordcount,sorted_list):
         current_count = c["number"]
         print(f"The '{current_char}' character was found {current_count} times")
     print("--- End report ---")
+
 main()
