@@ -5,7 +5,6 @@ def main():
     num_chars = get_character_dict(text)
     char_list_of_dict = dict_to_list(num_chars)
     char_list_of_dict.sort(reverse=True, key=sort_on)
-    #print(f"AFTER: {char_list_of_dict}")
     create_report(book_path,num_words,char_list_of_dict)
 
 
